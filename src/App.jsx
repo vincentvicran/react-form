@@ -1,7 +1,15 @@
-import React from "react";
+import React from 'react';
+
+import Form from './components/form';
+import List from './components/list';
 
 const App = () => {
-  return <div>App</div>;
+    return (
+        <div>
+            <Form />
+            <List />
+        </div>
+    );
 };
 
 export default App;
